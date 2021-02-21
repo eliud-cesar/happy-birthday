@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+}
+
+canvas{
+    display:block
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, .3));
+}
+
+
+
+/* BUTTONS */
+.button-rigth {
+    background: #006DC6;
+    width: 5vh;
+    height: 10vh;
+    bottom: 5%;
+    right: 5%;
+    padding: 5px;
+    position: fixed;
+
+    border-radius: 10px;
+    border: .1px solid #FAFDFF;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.2);
+    
+}
+.button-rigth a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button-rigth img {
+    width: 100%;
+}
+
+.button-left {
+    background: #91150e;
+    width: 5vh;
+    height: 10vh;
+    bottom: 5%;
+    left: 5%;
+    padding: 5px;
+    position: fixed;
+
+    border-radius: 10px;
+    border: .1px solid #FAFDFF;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.2);
+}
+.button-left a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button-left img {
+    width: 100%;
+}
+

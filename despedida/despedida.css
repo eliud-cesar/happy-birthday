@@ -1,0 +1,57 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 0;
+	position: absolute;
+	font: 16px Verdana;
+	color: #eee;
+	height: 25px;
+	top: calc( 100vh - 30px );
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 11px;
+}
+p > a:first-of-type {
+	font-size: 20px;
+}
+body {
+	overflow: hidden;
+}
+
+
+/* BUTTONS */
+/* boton */
+.button-rigth {
+    width: 5vh;
+    height: 10vh;
+    bottom: 5%;
+    right: 50%;
+    padding: 10px;
+    position: fixed;
+    transform: translateX(50%);
+
+    border-radius: 20px;
+    background-color: #DFE0E0;
+    border: .1px solid #282D31;
+    box-shadow: 8px 8px 10px rgba(255,255,255,.1);
+}
+/* link */
+.button-rigth a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* imagen de flecha */
+.button-rigth img {
+    width: 100%;
+}
